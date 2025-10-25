@@ -52,6 +52,34 @@ A modern, minimalist website for AppDost - your trusted partner for complete dig
 npm run build
 ```
 
+## 🚀 Deploy to Netlify
+
+### Option 1: Deploy via GitHub (Recommended)
+
+1. **Connect GitHub to Netlify**
+   - Go to [netlify.com](https://netlify.com) and sign up/login
+   - Click "New site from Git"
+   - Choose "GitHub" and authorize Netlify
+   - Select your `UI` repository
+
+2. **Configure Build Settings**
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+   - Click "Deploy site"
+
+3. **Your site will be live!** 🎉
+   - Netlify will provide a URL like `https://your-site-name.netlify.app`
+   - Every push to main branch will auto-deploy
+
+### Option 2: Manual Deploy
+
+1. **Build the project locally**
+   ```bash
+   npm run build
+   ```
+
+2. **Drag & drop the `dist` folder** to [netlify.com/drop](https://app.netlify.com/drop)
+
 ## 🌟 About AppDost
 
 AppDost is a dynamic, innovation-driven IT solutions provider specializing in turning visionary ideas into powerful, market-ready products. We empower businesses with cutting-edge technology solutions that drive growth and enhance user experiences.
@@ -80,4 +108,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ---
 
-**Built with ❤️ by AppDost Team**
+**Built with ❤️ by Rishabh Mishra**
