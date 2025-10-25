@@ -92,11 +92,7 @@ AppDost is a dynamic, innovation-driven IT solutions provider specializing in tu
 - Cloud Solutions
 - DevOps & Automation
 
-## 📞 Contact
 
-- **Website**: [appdost.in](https://appdost.in)
-- **Email**: hello@appdost.in
-- **Phone**: +91 (555) 123-4567
 
 ## 📄 License
 
