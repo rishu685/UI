@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-white text-slate-600 antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    /* Headlines are solid black */
+    @apply font-semibold text-slate-900;
+  }
+  
+  p {
+    /* Body text is a lighter gray for contrast */
+    @apply text-lg leading-relaxed;
+  }
+}
+
+@layer components {
+  /* This is our "human" button style */
+  .btn-primary {
+    @apply bg-accent-600 text-white font-medium px-5 py-2 rounded-lg transition-colors hover:bg-accent-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-slate-100 text-slate-700 font-medium px-5 py-2 rounded-lg transition-colors hover:bg-slate-200;
+  }
+}
